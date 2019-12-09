@@ -9,7 +9,7 @@ RUN rpm --import http://archive.cloudera.com/beta/impala-kudu/redhat/7/x86_64/im
     java-1.8.0-openjdk \
     java-1.8.0-openjdk-devel \
     hadoop-hdfs-namenode \
-    hadoop-hdfs-datanode hive hive-metastore \
+    hadoop-hdfs-datanode hive hive-metastore hive-server2 \
     impala impala-catalog impala-server \
     impala-state-store impala-shell \
     kudu-master kudu-tserver \
